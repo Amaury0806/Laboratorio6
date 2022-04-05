@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+body {
+    background-color: #eee;
+    font-family: 'Calibri', sans-serif !important;
+    height1000px
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+    box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05)
+}
+
+.social-graph-wrapper {
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    color: #fff;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    padding-top: 30px;
+    padding-bottom: 43px
+}
+
+.social-graph-wrapper.widget-facebook {
+    background-color: #3b5998
+}
+
+.social-graph-wrapper .s-icon {
+    font-size: 2.1875rem;
+    position: relative;
+    top: 0.625rem;
+    padding: 0 10px
+}
+
+.social-graph-wrapper.widget-linkedin {
+    background-color: #007bb6
+}
+
+.social-graph-wrapper.widget-googleplus {
+    background-color: #db4439
+}
+
+.social-graph-wrapper.widget-twitter {
+    background-color: #1da1f2
+}
